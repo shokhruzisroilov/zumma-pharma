@@ -1,0 +1,216 @@
+@media only screen and (max-width: 1400px) {
+  body main .main__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body main .main__content .pharma__new .content__img .pharma__new2 {
+    margin-left: -250px;
+    margin-top: 5px;
+  }
+  body main .main__content .pharma__new article .pharma__new1__article .article__text h3 {
+    font-size: 18px;
+  }
+  body main .main__content .pharma__new article .pharma__new1__article .article__text p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  body footer .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body header {
+    position: fixed;
+    z-index: 99999;
+  }
+  body header .header__content .header__logo img {
+    margin-left: 50px;
+  }
+  body header .header__content nav {
+    width: 60%;
+    margin-right: 0;
+    background-color: #2c2c2c;
+    position: absolute;
+    height: 90vh;
+    top: 15vh;
+    right: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    position: fixed;
+    z-index: 999999;
+  }
+  body header .header__content nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 30px;
+    padding: 20px 0;
+  }
+  body header .header__content .burger {
+    margin-right: 30px;
+    display: block;
+  }
+  body header .header__content .toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  body header .header__content .toggle .line-1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 4px);
+            transform: rotate(-45deg) translate(-6px, 4px);
+  }
+  body header .header__content .toggle .line-2 {
+    display: none;
+  }
+  body header .header__content .toggle .line-3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -4px);
+            transform: rotate(45deg) translate(-6px, -4px);
+  }
+  body header .header__content .nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  body main .main__content .pharma__new .content__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body main .main__content .pharma__new .content__img .pharma__new1 img {
+    width: 200px;
+    height: 200px;
+  }
+  body main .main__content .pharma__new .content__img .pharma__new1 h1 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: -20px;
+  }
+  body main .main__content .pharma__new .content__img .pharma__new2 img {
+    width: 200px;
+    height: 175px;
+  }
+  body main .main__content .pharma__new article {
+    padding: 10px;
+  }
+  body main .main__content .pharma__new article .pharma__new1__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .main__content .pharma__new article .pharma__new1__article .article__text h3 {
+    margin-top: 10px;
+  }
+  body main .main__content .pharma__new article .pharma__new1__article .article__text p {
+    margin-top: 10px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article {
+    margin-top: 10px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article .article__eye {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 5px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article .article__eye span p {
+    font-size: 16px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article .article__eye p {
+    font-size: 16px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article .article__eye h4 {
+    font-size: 16px;
+  }
+  body main .main__content .pharma__new article .pharma__new2__article .article__eye1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body main .main__content .last__pharma__new article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .main__content .last__pharma__new article .article__text {
+    margin-top: 10px;
+  }
+  body main .Prodaction {
+    padding-bottom: 70px;
+  }
+  body main .Prodaction nav ul a .next__to {
+    display: none;
+  }
+  body footer .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  body footer .user__developer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px;
+  }
+  body footer .user__developer h2 {
+    font-size: 18px;
+  }
+  body footer .user__developer p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=medias1.css.map */

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    header{
+        width:100%;
+        height:15vh;
+        background-color:#2C2C2C;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        .header__content{
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+            .header__logo{
+                img{
+                    width:78px;
+                    height:65px;
+                    margin-left:150px;
+                }
+            }
+            nav{
+                margin-right:50px;
+                ul{
+                    display: flex;
+                    column-gap:10px;
+                    display: flex;
+                    list-style: none;
+                    a{
+                        text-decoration:none;
+                        button{
+                            padding:10px 15px;
+                            border:0px;
+                            background-color:#2C2C2C;
+                            border:1.5px solid #fff;
+                            border-radius:12px;
+                            font-weight: 500;
+                            font-size:16px;
+                            line-height: 20px;
+                            color: #fff;
+                        }
+                        button:hover{
+                            background-color:#fff;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #248277;
+                            cursor:pointer;
+                        }
+                        .flag{
+                            display: flex;
+                            align-items:center;
+                            column-gap:10px;
+                            padding:10px;
+                        }
+                        .flag:hover{
+                            color:#fff;
+                            background-color:#2C2C2C;
+                        }
+                    }
+                }
+            }
+            .burger{
+                display:none;
+                div{
+                    width:40px;
+                    height:4px;
+                    background-color:#fff;
+                    margin:10px;
+                }
+            }
+        }
+    }
+    main{
+        width: 100%;
+        background-color:#F1F3F4;
+        .main__content{
+            display: flex;
+            justify-content:flex-start;
+            column-gap:20px;
+            padding:50px 0;
+            padding-top:150px;
+            .pharma__new{
+                display: flex;
+                flex-direction: column;
+                row-gap:30px;
+                .content__img{
+                    display: flex;
+                    align-items:center;
+                    justify-content:flex-start;
+                    .pharma__new1{
+                        display: flex;
+                        align-items:center;
+                        justify-content: center;
+                        position: relative;
+                        h1{
+                            font-weight: 600;
+                            font-size:25px;
+                            line-height: 37px;
+                            text-transform: uppercase;
+                            color:#fff;
+                            position: absolute;
+                            left:30px;
+                        }
+                    }
+                    .pharma__new2{
+                        margin-top:5px;
+                        margin-left:-120px;
+                    }
+                }
+                article{
+                    padding:25px;
+                    background: #EDEFF0;
+                    border: 2px solid #DEE0E1;
+                    border-radius: 16px;
+                    .pharma__new1__article{
+                        display: flex;
+                        column-gap:30px;
+                        justify-content: center;
+                        .article__text{
+                            h3{
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #333333;
+                            }
+                            p{
+                                margin-top:25px;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: rgba(51, 51, 51, 0.7);
+                            }
+                        }
+                    }
+                    .pharma__new2__article{
+                        margin-top:25px;
+                        display: flex;
+                        justify-content: space-between;
+                        .article__eye{
+                            display: flex;
+                            column-gap:30px;
+                            span{
+                                display: flex;
+                                align-items:center;
+                                p{
+                                    margin-left:10px;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #333333;
+                                }
+                            }
+                            p{
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #333333;
+                            }
+                            h4{
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #000;
+                                z{
+                                    color:#999999;
+                                }
+                            }
+                        }
+                        .article__eye1{
+                            p{
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #248277;
+                            }
+                        }
+                    }
+                }
+            }
+            .last__pharma__new{
+                height:100%;
+                padding:25px;
+                background: #EDEFF0;
+                border: 2px solid #DEE0E1;
+                border-radius: 16px;
+                row-gap: 30px;
+                article{
+                    max-width:500px;
+                    margin-top:25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    column-gap:20px;
+                    .article__text{
+                        p{
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #333333;
+                        }
+                        .article__eye_mumbers{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top:15px; 
+                            span{
+                                display: flex;
+                                align-items:center;
+                                justify-content: center;
+                                p{
+                                    margin-left:10px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    color: #616262;
+                                }
+                            }
+                            p{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #616262;
+                            }
+                        }
+                    }
+                }
+                h3{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 29px;
+                    color: #333333;
+                }
+            }
+        }
+        .Prodaction{
+            padding-bottom: 100px;
+            nav{
+                ul{
+                    display: flex;
+                    list-style:none;
+                    column-gap:10px;
+                    li{
+                        a{
+                            button{
+                                padding:10px;
+                                border:none;
+                                background: #DEE0E1;
+                                border-radius: 8px;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: center;
+                                color: #333333;
+                            }
+                            button:hover{
+                                background: #248277;
+                                color:#fff;
+                            }
+                            .next__to{
+                                padding:10px 20px;
+                                background: #248277;
+                                border-radius: 6px;
+                                color:#fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        background-color:#2C2C2C;
+        .footer__content{
+            display: flex;
+            column-gap:200px;
+            justify-content: center;
+            padding:60px 0;
+            .footer__icon{
+                h4{
+                    font-weight: 600;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    margin-top:10px;
+                }
+                .icon{
+                    margin-top:30px;
+                    display: flex;
+                    column-gap:15px;    
+                    a{
+                        font-size:30px;
+                        color:#fff;
+                    }
+                }
+            }
+            .footer__meddle{
+                h5{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin-bottom:10px;
+                }
+                p{
+                    margin-top:20px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    color: #A5A5A5;
+                }
+            }
+            .footer__contact{
+                h5{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin-bottom:10px;
+                }
+                span{
+                    margin-top:20px;
+                    display: flex;
+                    column-gap:5px;
+                    i{
+                        color:#A5A5A5;
+                    }
+                    p{
+                        font-weight: 500;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #A5A5A5;
+                    }
+                }
+            }
+        }
+        .user__developer{
+            padding:40px 0;
+            display: flex;
+            align-items:center;
+            h2{
+                margin-right: 50px;
+                font-weight: 500;
+                color: #969696;
+            }
+            p{
+                font-weight: 500;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

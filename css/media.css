@@ -1,0 +1,271 @@
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  body header {
+    height: 180px;
+  }
+  body header .header__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 150px;
+       -moz-column-gap: 150px;
+            column-gap: 150px;
+  }
+  body header .header__content nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    row-gap: 20px;
+  }
+  body main .first__main .full__article {
+    padding: 150px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body main .second__main .second__members {
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+  }
+  body main .drug__dairys {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body main .last__section__main .organizations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  body main .last__section__main .p__write {
+    -webkit-column-gap: 100px;
+       -moz-column-gap: 100px;
+            column-gap: 100px;
+  }
+  body main .to__connect .contacts {
+    margin: 20px;
+  }
+  body main .to__connect .contacts div {
+    height: 100px;
+  }
+  body main .to__connect .contacts div p {
+    font-size: 16px;
+  }
+  body main .partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+  }
+  body main .partners div img {
+    margin-bottom: 20px;
+  }
+  body main .partners div p {
+    text-align: start;
+  }
+  body footer .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body header {
+    position: fixed;
+    z-index: 99999;
+  }
+  body header .header__content .header__logo img {
+    margin-left: 50px;
+  }
+  body header .header__content nav {
+    width: 60%;
+    margin-right: 0;
+    background-color: #2c2c2c;
+    position: absolute;
+    height: 90vh;
+    top: 15vh;
+    right: 0px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    position: fixed;
+    z-index: 9999;
+  }
+  body header .header__content nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 30px;
+    padding: 20px 0;
+  }
+  body header .header__content .burger {
+    margin-right: 30px;
+    display: block;
+  }
+  body header .header__content .toggle {
+    margin-right: 30px;
+    display: block;
+  }
+  body header .header__content .toggle .line-1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 4px);
+            transform: rotate(-45deg) translate(-6px, 4px);
+  }
+  body header .header__content .toggle .line-2 {
+    display: none;
+  }
+  body header .header__content .toggle .line-3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -4px);
+            transform: rotate(45deg) translate(-6px, -4px);
+  }
+  body header .header__content .nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  body main .first__main .full__article {
+    padding: 50px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body main .first__main .full__article article img {
+    margin-top: 20px;
+  }
+  body main .first__main .full__article article p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  body main .second__main .second__members {
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 20px;
+  }
+  body main .second__main .second__members div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  body main .second__main .second__members div p {
+    font-size: 20px;
+  }
+  body main h2 {
+    margin-top: 50px;
+  }
+  body main .drug__dairys {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body main .last__section__main h1 {
+    margin: 0 10px;
+  }
+  body main .last__section__main .organizations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 20px;
+    row-gap: 30px;
+  }
+  body main .to__connect .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  body main .to__connect .contacts div {
+    height: 80px;
+    padding: 0px;
+  }
+  body main .partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  body main .partners div img {
+    width: 200px;
+  }
+  body footer .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  body footer .user__developer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px;
+  }
+  body footer .user__developer h2 {
+    font-size: 18px;
+  }
+  body footer .user__developer p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=media.css.map */

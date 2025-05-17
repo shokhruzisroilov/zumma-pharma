@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(36, 130, 119);
+}
+body .wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(36, 130, 119);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .wrapper .wrapper__content {
+  width: 500px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 100px 50px;
+  margin: 20px 0;
+}
+body .wrapper .wrapper__content span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+body .wrapper .wrapper__content span img {
+  width: 30px;
+}
+body .wrapper .wrapper__content span h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #333333;
+}
+body .wrapper .wrapper__content hr {
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+}
+body .wrapper .wrapper__content label {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+body .wrapper .wrapper__content .input {
+  width: 100%;
+  height: 50px;
+  background: rgba(51, 51, 51, 0.1);
+  border-radius: 12px;
+  border: none;
+  padding: 20px;
+}
+body .wrapper .wrapper__content ::-webkit-input-placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.2);
+}
+body .wrapper .wrapper__content ::-moz-placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.2);
+}
+body .wrapper .wrapper__content :-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.2);
+}
+body .wrapper .wrapper__content ::-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.2);
+}
+body .wrapper .wrapper__content ::placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.2);
+}
+body .wrapper .wrapper__content P {
+  text-align: right;
+  margin: 30px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B8175;
+}
+body .wrapper .wrapper__content a {
+  text-decoration: none;
+}
+body .wrapper .wrapper__content a button {
+  width: 100%;
+  height: 50px;
+  background: #1B8175;
+  border-radius: 12px;
+  border: none;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  cursor: pointer;
+}
+body .wrapper .wrapper__content a button i {
+  font-size: 25px;
+  color: #fff;
+}
+body .wrapper .wrapper__content a button h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=LoginPage.css.map */

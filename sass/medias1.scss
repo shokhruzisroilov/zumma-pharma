@@ -1,0 +1,210 @@
+@media only screen and (max-width:1400px){
+    body{
+        main{
+            .main__content{
+                display:flex;
+                flex-direction:column;
+                row-gap:50px;
+            }
+        }
+    }
+}
+//Tablet
+@media only screen and (min-width:768px) and (max-width:1023px){
+    body{
+        main{
+            .main__content{
+                .pharma__new{
+                    .content__img{
+                        .pharma__new2{
+                            margin-left:-250px;
+                            margin-top:5px;
+                        }
+                    }
+                    article{
+                        .pharma__new1__article{
+                            .article__text{
+                                h3{
+                                    font-size:18px;
+                                }
+                                p{
+                                    margin-top:10px;
+                                    font-size:16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            .footer__content{
+                display: flex;
+                column-gap:50px;
+            }
+        }
+    }
+}
+//Mobail
+@media only screen and (max-width:767px){
+    body{
+        header{
+            position: fixed;
+            z-index:99999;
+            .header__content{
+                .header__logo{
+                    img{
+                        margin-left:50px;
+                    }
+                }
+                nav{
+                    width:60%;
+                    margin-right:0;
+                    background-color:#2c2c2c;
+                    position: absolute;
+                    height:90vh;
+                    top:15vh;
+                    right:0;
+                    transform: translateX(100%);
+                    transition:0.5s ease-in;
+                    position:fixed;
+                    z-index: 999999;
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                        justify-content:center;
+                        row-gap:30px;
+                        padding:20px 0;
+                    }
+                }
+                .burger{
+                    margin-right:30px;
+                    display: block;
+                }
+                .toggle{
+                    margin-right:30px;
+                    display: block;
+                    .line-1{
+                        transform: rotate(-45deg) translate(-6px,4px);
+                    }
+                    .line-2{
+                        display: none;
+                    }
+                    .line-3{
+                        transform: rotate(45deg) translate(-6px,-4px);
+                    }
+                }
+                .nav-active{
+                    transform:translateX(0%);
+                }
+            }
+        }
+        main{
+            .main__content{
+                .pharma__new{
+                    .content__img{
+                        display: flex;
+                        justify-content: center;
+                        .pharma__new1{
+                            img{
+                                width:200px;
+                                height:200px;
+                            }
+                            h1{
+                                font-size:16px;
+                                line-height:25px;
+                                margin-left:-20px;
+                            }
+                        }
+                        .pharma__new2{
+                            img{
+                                width:200px;
+                                height:175px;
+                            }
+                        }
+                    }
+                    article{
+                        padding:10px;
+                        .pharma__new1__article{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items:center;
+                            .article__text{
+                                h3{
+                                    margin-top:10px;
+                                }
+                                p{
+                                    margin-top:10px;
+                                }
+                            }
+                        }
+                        .pharma__new2__article{
+                            margin-top:10px;
+                            .article__eye{
+                                display:flex;
+                                flex-direction: column;
+                                row-gap:5px;
+                                span{
+                                    p{
+                                        font-size:16px;
+                                    }
+                                }
+                                p{
+                                    font-size:16px;
+                                }
+                                h4{
+                                    font-size:16px;
+                                }
+                            }
+                            .article__eye1{
+                                display: flex;
+                                align-items:center;
+                            }
+                        }
+                    }
+                }
+                .last__pharma__new{
+                    article{
+                        display: flex;
+                        flex-direction: column;
+                        .article__text{
+                            margin-top:10px;
+                        }
+                    }
+                }
+            }
+            .Prodaction{
+                padding-bottom:70px;
+                nav{
+                    ul{
+                        a{
+                            .next__to{
+                                display:none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            .footer__content{
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+            }
+            .user__developer{
+                display: flex;
+                flex-direction: column;
+                padding-bottom:30px;
+                h2{
+                    font-size:18px;
+                }
+                p{
+                    font-size:14px;
+                }
+            }
+        }
+    }
+}

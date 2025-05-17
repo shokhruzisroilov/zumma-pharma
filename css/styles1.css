@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  width: 100%;
+  height: 15vh;
+  background-color: #2C2C2C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body header .header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .header__content .header__logo img {
+  width: 78px;
+  height: 65px;
+  margin-left: 150px;
+}
+body header .header__content nav {
+  margin-right: 50px;
+}
+body header .header__content nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  display: flex;
+  list-style: none;
+}
+body header .header__content nav ul a {
+  text-decoration: none;
+}
+body header .header__content nav ul a button {
+  padding: 10px 15px;
+  border: 0px;
+  background-color: #2C2C2C;
+  border: 1.5px solid #fff;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+body header .header__content nav ul a button:hover {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #248277;
+  cursor: pointer;
+}
+body header .header__content nav ul a .flag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  padding: 10px;
+}
+body header .header__content nav ul a .flag:hover {
+  color: #fff;
+  background-color: #2C2C2C;
+}
+body header .header__content .burger {
+  display: none;
+}
+body header .header__content .burger div {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  margin: 10px;
+}
+body main {
+  width: 100%;
+  background-color: #F1F3F4;
+}
+body main .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  padding: 50px 0;
+  padding-top: 150px;
+}
+body main .main__content .pharma__new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+}
+body main .main__content .pharma__new .content__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+body main .main__content .pharma__new .content__img .pharma__new1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+body main .main__content .pharma__new .content__img .pharma__new1 h1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+}
+body main .main__content .pharma__new .content__img .pharma__new2 {
+  margin-top: 5px;
+  margin-left: -120px;
+}
+body main .main__content .pharma__new article {
+  padding: 25px;
+  background: #EDEFF0;
+  border: 2px solid #DEE0E1;
+  border-radius: 16px;
+}
+body main .main__content .pharma__new article .pharma__new1__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .main__content .pharma__new article .pharma__new1__article .article__text h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+body main .main__content .pharma__new article .pharma__new1__article .article__text p {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(51, 51, 51, 0.7);
+}
+body main .main__content .pharma__new article .pharma__new2__article {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye span p {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye h4 z {
+  color: #999999;
+}
+body main .main__content .pharma__new article .pharma__new2__article .article__eye1 p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #248277;
+}
+body main .main__content .last__pharma__new {
+  height: 100%;
+  padding: 25px;
+  background: #EDEFF0;
+  border: 2px solid #DEE0E1;
+  border-radius: 16px;
+  row-gap: 30px;
+}
+body main .main__content .last__pharma__new article {
+  max-width: 500px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+body main .main__content .last__pharma__new article .article__text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+body main .main__content .last__pharma__new article .article__text .article__eye_mumbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+body main .main__content .last__pharma__new article .article__text .article__eye_mumbers span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body main .main__content .last__pharma__new article .article__text .article__eye_mumbers span p {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #616262;
+}
+body main .main__content .last__pharma__new article .article__text .article__eye_mumbers p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #616262;
+}
+body main .main__content .last__pharma__new h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #333333;
+}
+body main .Prodaction {
+  padding-bottom: 100px;
+}
+body main .Prodaction nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+body main .Prodaction nav ul li a button {
+  padding: 10px;
+  border: none;
+  background: #DEE0E1;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+body main .Prodaction nav ul li a button:hover {
+  background: #248277;
+  color: #fff;
+}
+body main .Prodaction nav ul li a .next__to {
+  padding: 10px 20px;
+  background: #248277;
+  border-radius: 6px;
+  color: #fff;
+}
+body footer {
+  width: 100%;
+  background-color: #2C2C2C;
+}
+body footer .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 200px;
+     -moz-column-gap: 200px;
+          column-gap: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 0;
+}
+body footer .footer__content .footer__icon h4 {
+  font-weight: 600;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+body footer .footer__content .footer__icon .icon {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+body footer .footer__content .footer__icon .icon a {
+  font-size: 30px;
+  color: #fff;
+}
+body footer .footer__content .footer__meddle h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+body footer .footer__content .footer__meddle p {
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #A5A5A5;
+}
+body footer .footer__content .footer__contact h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+body footer .footer__content .footer__contact span {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
+}
+body footer .footer__content .footer__contact span i {
+  color: #A5A5A5;
+}
+body footer .footer__content .footer__contact span p {
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #A5A5A5;
+}
+body footer .user__developer {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer .user__developer h2 {
+  margin-right: 50px;
+  font-weight: 500;
+  color: #969696;
+}
+body footer .user__developer p {
+  font-weight: 500;
+  color: #FFFFFF;
+}/*# sourceMappingURL=styles1.css.map */
